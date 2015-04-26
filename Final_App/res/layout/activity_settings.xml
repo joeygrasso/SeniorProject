@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_background">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Units_Text_View"
+        android:id="@+id/textView2" 
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        />
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip" >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Pounds_RadioButton"
+            android:id="@+id/lbRadioButton"
+            android:checked="true" 
+            android:textSize="17sp"
+            android:textColor="@color/white" 
+            android:paddingLeft="10dip"
+        	android:paddingRight="10dip"
+        	android:paddingTop="10dip"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Kilograms_RadioButton"
+            android:id="@+id/kgRadioButton" 
+			android:textSize="17sp"
+            android:textColor="@color/white"
+        	android:paddingLeft="10dip"
+        	android:paddingRight="10dip"
+        	android:paddingTop="10dip" />
+
+    </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Notifications_Text_View"
+            android:id="@+id/textView11" 
+			android:textSize="17sp"
+            android:textColor="@color/white" 
+            android:paddingLeft="10dip"
+        	android:paddingRight="10dip"
+        	android:paddingTop="10dip" />
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+        	android:paddingRight="10dip"
+        	android:paddingTop="10dip">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/On_RadioButton"
+                android:id="@+id/onRadioButton"
+                android:checked="true" 
+				android:textSize="17sp"
+            	android:textColor="@color/white"
+				android:paddingLeft="10dip"
+        		android:paddingRight="10dip"
+        		android:paddingTop="10dip" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Off_RadioButton"
+                android:id="@+id/offRadioButton" 
+				android:textSize="17sp"
+            	android:textColor="@color/white"
+        		android:paddingLeft="10dip"
+        		android:paddingRight="10dip"
+        		android:paddingTop="10dip" />
+        </RadioGroup>
+        
+        <Button
+            android:id="@+id/btnDeleteAccount"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/btn_logut_bg"
+            android:text="@string/btn_Delete_Account"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linearLayout">
+
+         <ImageButton
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:id="@+id/btnCalc"
+            android:background="@drawable/home" />
+
+        <ImageButton
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:id="@+id/btnTrack"
+            android:background="@drawable/calculate" />
+
+        <ImageButton
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:id="@+id/btnCompare"
+            android:background="@drawable/compare" />
+
+        <ImageButton
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:id="@+id/btnSettings"
+            android:background="@drawable/track" />
+
+    </LinearLayout>
+
+</RelativeLayout>

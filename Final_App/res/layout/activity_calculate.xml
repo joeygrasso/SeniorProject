@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/blue_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:id="@+id/TextView"
+            android:phoneNumber="false"
+            android:password="false"
+            android:text="@string/Height_Text_View" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:singleLine="true"
+            android:inputType="numberDecimal"
+            android:id="@+id/heightEditText" />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Weight_Text_View"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:textColor="@color/white"
+            android:textSize="17dip"/>
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="15dip"
+            android:singleLine="true"
+            android:inputType="numberDecimal"
+            android:id="@+id/weightEditText" />
+
+        <Button
+            android:text="@string/Store_BMI_Button"
+            android:id="@+id/btnStore"
+            android:background="@color/bg_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dip"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:text="@string/Calculate_BMI_Button"
+            android:id="@+id/btnCalculate"
+            android:background="@color/btn_logut_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dip"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginTop="20dip"
+            android:layout_gravity="center_horizontal"/>
+        
+        <TextView
+            android:id="@+id/rangeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginTop="20dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linearLayout">
+
+         <ImageButton
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:id="@+id/btnCalc"
+            android:background="@drawable/home" />
+
+        <ImageButton
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:id="@+id/btnTrack"
+            android:background="@drawable/track" />
+
+        <ImageButton
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:id="@+id/btnCompare"
+            android:background="@drawable/compare" />
+
+        <ImageButton
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:id="@+id/btnSettings"
+            android:background="@drawable/settings" />
+
+    </LinearLayout>
+
+</RelativeLayout>
