@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IMC_Application</string>
+    <string name="hello_world">Bonjour monde!</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Mot de passe</string>
+    <string name="hint_name">Nom et prénom</string>
+    <string name="btn_login">CONNEXION</string>
+    <string name="btn_register">INSCRIRE</string>
+    <string name="btn_link_to_register">Pas une membre? Inscrivez-vous maintenant.</string>
+    <string name="btn_link_to_login">Déjà inscrive! Ouvrir une session.</string>
+    <string name="welcome">Bienvenue</string>
+    <string name="btn_logout">DÉCONNEXION</string>
+    <string name="name">Nom et prénom</string>
+    <string name="btn_Calculate">Calculer IMC</string>
+    <string name="btn_Compare">Comparer IMC</string>
+    <string name="btn_Settings">Paramètres</string>
+    <string name="btn_Track">Traquer IMC</string>
+	
+    <string name="Height_Text_View">Hauteur</string>
+    <string name="Weight_Text_View">Poids</string>
+    <string name="Store_BMI_Button">Stocker IMC</string>
+    <string name="Calculate_BMI_Button">Calculer IMC</string>
+    <string name="BMI_High_Text_View">IMC Haut</string>
+    <string name="BMI_Low_Text_View">IMC Faible</string>
+    <string name="Current_BMI_Text_View">Actuel IMC</string>
+    <string name="Username_Text_View">Nom d'utilisateur</string>
+    <string name="Password_Text_View">Mot de passe</string>
+    <string name="Login_Button">Connexion</string>
+    <string name="No_Account_Button">Vous n'avez pas un compte</string>
+    <string name="Confirm_Password_Text_View">Confirmer mot de passe</string>
+    <string name="Units_Text_View">Unités</string>
+    <string name="Pounds_RadioButton">Dus</string>
+    <string name="Kilograms_RadioButton">Kilogrammes</string>
+    <string name="Create_Button">Créer</string>
+    <string name="Settings_Text_View">Paramètres</string>
+    <string name="Notifications_Text_View">Notifications</string>
+    <string name="On_RadioButton">Marche</string>
+    <string name="Off_RadioButton">Arrêt</string>
+    <string name="Log_Off_Button">Fermer la session</string>
+</resources>
